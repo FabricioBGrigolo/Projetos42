@@ -1,0 +1,72 @@
+.motos-disponiveis {
+    padding: 4.2rem 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.lista-motos {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+
+    padding-bottom:2rem ;    
+
+}
+
+#motocicleta .motos-disponiveis {
+    max-width: 1200px;
+}
+
+
+.motos-disponiveis > div > h2 {
+    margin-bottom: 1.5rem;
+}
+
+.lista-motos > li > a {
+    display: block;
+}
+
+.lista-motos img {
+    margin-bottom: 1rem;
+} 
+
+.lista-motos h3 {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+} 
+
+.lista-motos h3::before {
+    content: "";
+    display: inline-block;
+
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+
+    background-color: var(--escuro2);
+
+    transition: width 0.42s;
+}
+
+.lista-motos a:hover h3::before {
+    width: 28px;
+}
+
+.lista-motos li span {
+    padding-left: 20px;
+}
+
+@media (max-width:800px) {
+    .motos-disponiveis {
+        padding: 2rem 1rem;
+        
+    }
+    .lista-motos {
+        gap: 20px;
+    }
+
+    .lista-motos li {
+        min-width: 280px;
+    }
+}

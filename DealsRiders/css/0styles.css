@@ -1,0 +1,69 @@
+/* UTILITARIOS */
+@import url(./utilitarios/1cores.css);
+
+@import url(./utilitarios/2tipografia.css);
+
+@import url(./utilitarios/3botao.css);
+
+@import url(./utilitarios/4container.css);
+
+@import url(./utilitarios/5titulos.css);
+
+@import url(./utilitarios/6formulario.css);
+
+@import url(./utilitarios/7animacao.css);
+
+/* CSS's GLOBAIS */
+
+@import url(./1global.css);
+
+@import url(./2header.css);
+
+@import url(./3footer.css);
+
+/* ESTILOS DO INDEX */
+
+@import url(./index/1introducao.css);
+
+@import url(./index/2lista.css);
+
+@import url(./index/3tecnologia.css);
+
+@import url(./index/4parceiros.css);
+
+@import url(./index/5depoimento.css);
+
+/* ESTILOS DOS SEGUROS */
+
+@import url(./seguros/1seguros.css);
+
+@import url(./seguros/2vantagens.css);
+
+@import url(./seguros/3perguntas.css);
+
+
+/* ESTILOS DO TERMOS */
+
+@import url(./termos/1termos.css);
+
+
+/* ESTILOS DO(AS) MOTOCICLETAS */
+
+@import url(./motocicletas/1motocicletas.css);
+
+@import url(./motocicletas/2motocicleta.css);
+
+@import url(./motocicletas/3seguro.css);
+
+
+/* ESTILOS DO CONTATO */
+
+@import url(./contato/1contato.css);
+
+@import url(./contato/2lojas.css);
+
+/* ESTILOS DO ORÇAMENTO */
+
+@import url(./orcamento/1orcamento.css);
+
+@import url(./orcamento/99termos.css);
