@@ -1,0 +1,30 @@
+/* RESET */
+/* ----------------------------------------- */
+* ul {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+* a {
+    color: white;
+  }
+  
+  * {
+    font-family: "Merriweather";
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+      /* No caso seria, max-width: 100%;
+        Porem neste projeto quero que a img cresça mais que o elemento pai permite.
+      */
+  
+  
+  /* RESET */
+  /* ----------------------------------------- */
+  

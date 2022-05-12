@@ -1,0 +1,373 @@
+/* ESTILOS PADRÕES DOS ITENS */
+/* ------------------------- */
+
+.grid-container-habilidades li h4 {
+  font-size: 12px;
+  padding: 5px;
+  /* G2 */
+  color: #fff8f8;
+}
+
+.barra-porcentagem {
+  width: 380px;
+  height: 19px;
+
+  /* R21 */
+  background: #2d0001;
+
+  /* R22 */
+  border: 4px solid #260002;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barra-porcentagem p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-left: 5px;
+
+  /* G1 */
+  color: #fdfafa;
+}
+
+/* HAB HTML A BAIXO */
+/* ------------------------- */
+
+.hab-item-HTML {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-HTML {
+  max-width: 380px;
+  width: calc(50%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-HTML p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB CSS A BAIXO */
+/* ------------------------- */
+
+.hab-item-CSS {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-CSS {
+  max-width: 380px;
+  width: calc(50%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-CSS p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB JS A BAIXO */
+/* ------------------------- */
+
+.hab-item-JS {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-JS {
+  max-width: 380px;
+  width: calc(90%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-JS p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB FIGMA A BAIXO */
+/* ------------------------- */
+
+.hab-item-FIGMA {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-FIGMA {
+  max-width: 380px;
+  width: calc(68%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-FIGMA p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB LINUX A BAIXO */
+/* ------------------------- */
+
+.hab-item-LINUX {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-LINUX {
+  max-width: 380px;
+  width: calc(48%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-LINUX p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB WINDOWS A BAIXO */
+/* ------------------------- */
+
+.hab-item-WINDOWS {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-WINDOWS {
+  max-width: 380px;
+  width: calc(62%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-WINDOWS p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB INGLÊS A BAIXO */
+/* ------------------------- */
+
+.hab-item-INGLÊS {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-INGLÊS {
+  max-width: 380px;
+  width: calc(56%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.porcentagem-INGLÊS p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+/* HAB CRIATIVIDADE A BAIXO */
+/* ------------------------- */
+
+.hab-item-CRIATIVIDADE {
+  width: 420px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.porcentagem-CRIATIVIDADE {
+  max-width: 380px;
+  width: calc(100%);
+  height: 10px;
+
+  /* G3 */
+  background: #fcefef;
+  border-radius: 2px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  animation-name: slidein-criatividade;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-delay: -1s;
+  animation-timing-function: linear;
+}
+
+.porcentagem-CRIATIVIDADE p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 6px;
+
+  margin-right: 10px;
+
+  /* R22 */
+  color: #260002;
+}
+
+@media (max-width: 980px) {
+  .barra-porcentagem {
+    width: 300px;
+  }
+
+  @media (max-width: 400px) {
+    .barra-porcentagem {
+      width: 200px;
+    }
+  }
+
+  /*FIM */
+  /* ------------------------- */
+}

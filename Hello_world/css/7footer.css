@@ -1,0 +1,124 @@
+.footer {
+  position: relative;
+  /* G19 */
+  background-color: #100f0f;
+}
+
+.footer-container {
+  padding: 21px 48px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  place-items: center;
+
+  max-width: 1000px;
+}
+
+.footer-container a,
+.footer-container p,
+.footer-container li {
+  color: #fff8f8;
+}
+
+.footer-container li {
+  margin: 14px;
+  position: relative;
+}
+
+.footer-container::before {
+  content: "";
+
+  position: absolute;
+  width: 113px;
+  height: 60px;
+
+  top: -30px;
+  left: 142px;
+
+  background: linear-gradient(
+    254.56deg,
+    rgba(196, 196, 196, 0.914894) -0.28%,
+    #a70006 -0.27%,
+    #260002 98.28%
+  );
+  border-radius: 420px 2px;
+  transform: matrix(0.87, -0.5, 0.49, 0.87, 0, 0);
+}
+
+.instagram::before {
+  position: absolute;
+  display: block;
+  content: "";
+
+  width: 24px;
+  height: 24px;
+
+  left: -37px;
+
+  background: url(/Icons/instagram.svg);
+  background-size: 24px;
+}
+
+.email::before {
+  position: absolute;
+  display: block;
+  content: "";
+
+  width: 20px;
+  height: 13px;
+
+  left: -35px;
+
+  background: url(/Icons/email.svg);
+  background-size: 20px;
+}
+
+.linkedin::before {
+  position: absolute;
+  display: block;
+  content: "";
+
+  width: 18px;
+  height: 18px;
+
+  left: -34px;
+
+  background: url(/Icons/linkedin.svg);
+  background-size: 18px;
+}
+
+.github::before {
+  position: absolute;
+  display: block;
+  content: "";
+
+  width: 24px;
+  height: 24px;
+
+  left: -37px;
+  top: -4px;
+
+  background: url(/Icons/icons8-github.svg);
+  background-size: 24px;
+}
+
+@media (max-width: 980px) {
+  .criado {
+    margin-top: 20px;
+  }
+
+  .footer-container::before {
+    width: 43px;
+    height: 20px;
+
+    top: -10px;
+    left: 242px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

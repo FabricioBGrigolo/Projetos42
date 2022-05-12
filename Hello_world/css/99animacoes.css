@@ -1,0 +1,20 @@
+@keyframes slidein-criatividade {
+
+    from {
+        width: calc(90%);
+    }
+    to {
+        width: calc(15%);
+    }
+
+}
+
+@keyframes slidein-behind {
+    from {
+        
+    }
+    
+    to {
+        
+    }
+}

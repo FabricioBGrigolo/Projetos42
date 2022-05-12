@@ -1,0 +1,80 @@
+.habilidades-bg {
+  /* G15 */
+  background: #262424;
+  padding: 84px;
+ 
+}
+
+.hab-introduction {
+  padding: 42px;
+  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hab-introduction h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  /* G2 */
+  color: #fff8f8;
+
+  margin-bottom: 10.5px;
+}
+
+.hab-introduction p {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+
+  /* or 142% */
+  letter-spacing: 0.0242em;
+
+  /* G2 */
+  color: #fff8f8;
+
+}
+
+
+.grid-container-habilidades {
+    display: grid;
+    grid-template-columns: 420px 420px;
+    gap: 21px 42px;
+    justify-content: center;
+
+}
+
+
+.container-habilidades {
+  padding: 42px;
+}
+
+@media (max-width:980px) {
+  .grid-container-habilidades {
+    grid-template-columns: auto;
+    justify-content: center;
+    
+  }
+  .hab-introduction {
+    padding: 24px 0px;
+    margin: 21px auto;
+    max-width: 35ch;
+    
+  }
+  .habilidades-bg {
+    padding: 24px;
+    
+  }
+
+  .hab-introduction p {
+    font-size: 12px;
+  }
+
+  
+}
+
