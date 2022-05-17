@@ -10,7 +10,9 @@
 
 @import url(./6qualidade.css);
 
-@import url(./7footer.css);
+@import url(./7reserva.css);
+
+@import url(./8footer.css);
 
 /* UTILITARIOS */
 @import url(./utilitarios/1cores.css);

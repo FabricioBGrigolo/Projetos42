@@ -1,0 +1,60 @@
+.reserva-bg {
+    background-color: var(--cor-3);
+}
+
+.reserva.s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.reserva-info {
+    margin-right: 20px;
+    max-width: 35ch;
+}
+
+.reserva-info h1 {
+    
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.reserva-info p {
+    margin-bottom: 10px;
+}
+
+.email-form {
+    flex: 2 1 150px;
+    margin: 0 10px;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.email-form input {
+    flex: 3 1 200px;
+    border: 4px solid var(--cp1);
+    background: transparent;
+    padding: 15px 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.email-form button {
+    flex: 1 1 200px;
+    font-size: 2rem;
+    font-family: "Merriweather";
+    background: var(--cp1);
+    color: whitesmoke;
+    cursor: pointer;
+    border: 0px;
+    padding: 15px 10px;
+}
+
