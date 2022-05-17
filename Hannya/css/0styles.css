@@ -2,6 +2,16 @@
 
 @import url(./2header.css);
 
+@import url(./3sobre.css);
+
+@import url(./4produtos.css);
+
+@import url(./5detalhes.css);
+
+@import url(./6qualidade.css);
+
+@import url(./7footer.css);
+
 /* UTILITARIOS */
 @import url(./utilitarios/1cores.css);
 

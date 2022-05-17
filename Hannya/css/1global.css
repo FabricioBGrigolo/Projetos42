@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gabriela", "Merriweather", serif;
+    color: var(--cor-11);
+}
+
 img {
     max-width: 100%;
     display: block;
