@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: "Vollkorn", Georgia, serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}

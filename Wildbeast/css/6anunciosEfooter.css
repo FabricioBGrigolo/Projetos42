@@ -1,0 +1,24 @@
+/* ANUNCIOS */
+.anuncios {
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+
+    padding: 30px;
+    gap: 30px;
+
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
