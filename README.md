@@ -26,6 +26,7 @@ Tecnologias utilizadas até o momento neste repositório e que estou tendo mais 
 5. hackthebox
 
 # Projetos deste repositório (em ordem cronológica de criação)
+(Todos os projetos são responsivos e respeitam a tela do usuário final.)
 
 ## Hello_world
 Sendo o meu primeiro site criado, desenvolvi o layout(no Figma) e código como proposta do curso de "HTML e CSS para iniciantes" e "UI Desing do Origamid.
