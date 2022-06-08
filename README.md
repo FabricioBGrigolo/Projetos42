@@ -33,7 +33,7 @@ Sendo o meu primeiro site criado, desenvolvi o layout(no Figma) e código como p
 
 
 ## DealsRiders
-Também como proposta do curso "HTML e CSS para iniciantes" mesclado com "UI Design para iniciantes", resolvi mudar apenas a proposta do site, invez de ser o Bikcraft eu queria uma concessionária de Harleys(uma outra paixão minha), apenas alterei o logo e alguns detalhes (sendo o meu primeiro site com varías páginas e com , hover,css animations e Javascript.
+Também como proposta do curso "HTML e CSS para iniciantes" mesclado com "UI Design para iniciantes", resolvi mudar apenas a proposta do site, invez de ser o Bikcraft eu queria uma concessionária de Harleys(uma outra paixão minha), apenas alterei o logo e alguns detalhes (sendo o meu primeiro site com varías páginas e com , hover,css animations e Javascript).
 ![image](https://user-images.githubusercontent.com/72279467/172719584-80040164-5bbb-4fef-b0da-4e10c06801e6.png)
 
 ## Hannya
