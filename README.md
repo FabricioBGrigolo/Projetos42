@@ -46,7 +46,7 @@ Também um curso proposto em aprofundar-se em CSS Grid layout.
 
 ## Fantastic Animals
 Site em processo de desenvolvimento, como proposta da Origamid em focar nas funcionalidades padrões da linguagem Javascript...
-(Quando eu terminar o curso descreverei mais sobre...)
+Loading...
 ![image](https://user-images.githubusercontent.com/72279467/172721476-546d2ef5-9e4b-4069-b877-bde38a5b1fe3.png)
 
 
