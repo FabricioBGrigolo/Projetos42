@@ -18,11 +18,11 @@ Tecnologias utilizadas até o momento, que estou tendo mais foco em aprende-las.
 * Python
 * Ruby
 ### Onde eu estou estudando atualmente ###
-i.Origamid
-ii.CS50 Introduction to Computer Science
-iii.GeeksforGeeks
-iiii.tryhackme
-iiiii.hackthebox
+1.Origamid
+2.CS50 Introduction to Computer Science
+3.GeeksforGeeks
+4.tryhackme
+5.hackthebox
 
 # Projetos deste repositório (em ordem cronológica de criação)
 
