@@ -10,7 +10,7 @@ Tecnologias utilizadas até o momento, que estou tendo mais foco em aprende-las.
 * HTML5
 * CSS3
 * Javascript
-### Tecnologias que estou em processo de aprendizagem inicial ou tenho interesse em (até o momento)...###
+### Tecnologias que estou em processo de aprendizagem inicial ou tenho interesse em (até o momento)... 
 * PHP
 * Docker
 * Typescript
