@@ -6,11 +6,11 @@ programação.
 Como citado acima este repositório contém minha tragetoria de projetos finalizados (ou em processo de finalização). Meu foco nos estudos começaram em janeiro deste ano, me via em um trabalho onde não me agradava o rumo que ele me levaria, então por isso resolvi focar minhas horas vagas em aprender tecnologias diversas e como elas funcionam, não só para ter uma profissão mas por interesse. Aos poucos o caminho foi se iluminando e me dando um rumo de onde deveria estudar para começar.
 
 # Tecnologias
-Tecnologias utilizadas até o momento, que estou tendo mais foco em aprende-las. (08/06/2022 data da edição deste README)
+Tecnologias utilizadas até o momento neste repositório e que estou tendo mais foco em aprendê-las. (08/06/2022 data da edição deste README)
 * HTML5
 * CSS3
 * Javascript
-### Tecnologias que estou em processo de aprendizagem inicial ou tenho interesse em (até o momento)... 
+### Tecnologias que estou em processo de aprendizagem inicial ou tenho interesse em aprender... 
 * PHP
 * Docker
 * Typescript
