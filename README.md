@@ -10,6 +10,7 @@ Tecnologias utilizadas até o momento neste repositório e que estou tendo mais 
 * HTML5
 * CSS3
 * Javascript
+* Figma
 ### Tecnologias que estou em processo de aprendizagem inicial ou tenho interesse em aprender... 
 * PHP
 * Docker
