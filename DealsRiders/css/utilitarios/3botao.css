@@ -63,7 +63,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url("/imgs/icones/laranjas/seta.svg");
+  background: url("./imgs/icones/laranjas/seta.svg");
   transition: transform 0.2s;
 }
 
@@ -82,7 +82,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url("/imgs/icones/amarelos/seta.svg");
+  background: url("./imgs/icones/amarelos/seta.svg");
   transition: transform 0.2s;
 }
 

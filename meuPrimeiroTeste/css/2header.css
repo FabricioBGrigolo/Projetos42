@@ -1,0 +1,41 @@
+.login img {
+  margin-right: 10px;
+}
+.login a {
+  cursor: pointer;
+}
+
+.logo-nav {
+  justify-content: space-between;
+}
+
+.nav-principal li + li {
+  margin-left: 20px;
+}
+.nav-principal li:nth-child(-n + 4) a {
+  color: var(--textoCor1);
+  transition: 0.2s;
+}
+
+.nav-principal li:nth-child(-n + 4) a:hover {
+  color: var(--corDeDestaque2);
+}
+
+@media (max-width: 1070px) {
+  .logo-nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo-nav > div {
+    margin-bottom: 20px;
+  }
+  .nav-principal li + li {
+      margin-left: 0;
+      margin-top: 15px;
+  }
+
+  .nav-principal ul {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

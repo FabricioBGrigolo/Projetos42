@@ -1,0 +1,95 @@
+/* Geral */
+.footer, .footer a {
+    color: #fff;
+}
+/* -- */
+/* Footer logo */
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 40px 60px
+}
+
+.footerLogo p {
+    max-width: 30ch;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.midias a + a {
+    margin-left: 20px;
+}
+
+/* -- */
+/* Footer Nav */
+
+.footerNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.titulo {
+    letter-spacing: 0.35ch;
+    margin-bottom: 20px;
+}
+.footerNav li + li {
+    margin-bottom: 15px;
+}
+
+.criadoPor {
+    font-size: 10px;
+   padding: 20px 10px;
+}
+.criadoPor p {
+    margin-right: 5px;
+}
+
+footer  a:hover {
+    transition: 0.3s;
+    color: #172e53;
+}
+
+@media (max-width:900px) {
+    .footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footerLogo {
+        display: grid;
+        justify-items: center;
+    }
+    .footerLogo p {
+        text-align: center;
+    }
+
+    .midias {
+        margin-bottom: 40px;
+    }
+    .midias a + a {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .footerNav {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footerNav li {
+        text-align: center;
+    }
+
+    .criadoPor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .criadoPor div + div {
+        margin-top: 10px;
+    }
+}

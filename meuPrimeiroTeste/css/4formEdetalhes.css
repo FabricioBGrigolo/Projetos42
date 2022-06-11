@@ -1,0 +1,114 @@
+/* Grid do main */
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(450px,1fr) 1fr;
+  gap: 100px;
+}
+
+
+.form {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+
+  padding: 45px;
+  border: 1px solid #d9d9d9;
+  border-radius: 38px;
+
+  box-shadow: 11px 13px 37px rgba(0, 0, 0, .06);
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel]  {
+  width: 100%;
+  padding: 15px 5px;
+  border: none;
+  border-bottom: 1px solid var(--lineForm);
+}
+
+input[type=text].mensagem {
+  padding-bottom: 90px;
+}
+
+input:focus {
+  outline: none;
+
+  background: rgb(224, 222, 222);
+}
+
+.politica input {
+    margin-right: 5px;
+}
+
+.politica {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 12px;
+
+  color: #b4b4b4;
+}
+
+.politica a {
+  position: relative;
+  color: #b4b4b4;
+
+  text-decoration: underline;
+}
+
+/* -- */
+/* Detalhes */
+
+.detalhes {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 40px 20px;
+}
+
+.detalhes img {
+    width: 45px;
+    height: 45px;
+
+    margin-top: 15px;
+}
+
+.detalhes h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vagas p {
+  margin-bottom: 15px;
+}
+
+
+@media (max-width:900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .form {
+    max-width: 600px;
+  }
+  .detalhes {
+    padding: 20px;
+    place-content: center;
+    place-items: center;
+  }
+
+  .map, .dados, .vagas {
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+
+  .map p, .dados p, .vagas p {
+    max-width: 40ch;
+    text-align: center;
+  }
+}

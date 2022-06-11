@@ -1,0 +1,22 @@
+.contatos {
+    padding: 50px;
+}
+
+.contatos > div p {
+    margin-bottom: 20px;
+}
+
+.btns a + a {
+    margin-left: 40px;
+}
+
+@media (max-width:730px) {
+    .btns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btns a + a {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
