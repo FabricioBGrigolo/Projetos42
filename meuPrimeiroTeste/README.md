@@ -7,9 +7,9 @@ HTML5
 CSS3
 Boostrap5.2.0
 
-¹Link do projeto
+<!-- ¹Link do projeto
 (Utilizei o github pages para facilitar na visualização da página,
-https://fabriciobgrigolo.github.io)
+https://fabriciobgrigolo.github.io) -->
 
 ²Link do XD
 (https://xd.adobe.com/view/c2031fe3-c8be-40e7-b5e2-413a292fdb98-9750/screen/95344368-c997-477b-8e20-f16324baae38/specs/)
