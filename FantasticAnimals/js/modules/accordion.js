@@ -1,7 +1,6 @@
-
 // Navegação em Accordion nas perguntas e respostas
 export default function initAccordion() {
-    const accordionList = document.querySelectorAll(".js-accordion dt");
+    const accordionList = document.querySelectorAll('[data-js="accordion"] dt');
     const activeClass = "ativo";
   
     if (accordionList.length) {
@@ -18,5 +17,4 @@ export default function initAccordion() {
       }
     }
   }
-
-  
+    

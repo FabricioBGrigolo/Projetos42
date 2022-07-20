@@ -1,6 +1,6 @@
 // Scroll suave
 export default function initScrollSuave() {
-    const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+    const linksInternos = document.querySelectorAll('[data-js="menu"] a[href^="#"]');
   
     linksInternos.forEach((link) => {
       link.addEventListener("click", scrollToSection);
@@ -24,4 +24,5 @@ export default function initScrollSuave() {
       //   })
     }
   }
+
   
