@@ -15,14 +15,6 @@ export default function initScrollSuave() {
         behavior: "smooth",
         block: "start",
       });
-  
-      //  form alternativa
-      //   const top = section.offsetTop;
-      //   window.scrollTo({
-      //       top: top,
-      //       behavior: 'smooth',
-      //   })
     }
   }
-
   
