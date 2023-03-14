@@ -165,7 +165,14 @@ be set to display none.
 
 
 /*********************
-Reset Styles
+		Reset Styles
 *********************/
 
-@import './reset.scss'
+@import './reset';
+
+
+/*********************
+		Pages
+*********************/
+
+@import './pages/inicial';
