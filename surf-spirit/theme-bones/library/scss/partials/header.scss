@@ -1,0 +1,30 @@
+.header {
+	background-color: #03022C !important;
+
+	.container {
+		padding: 10px 0px;
+
+		.header-nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+
+			.logo {}
+
+			.nav-principal {
+				ul {
+					display: flex;
+					gap: 42px;
+					font-family: 'Merriweather';
+
+					li {
+						a {
+							color: white;
+						}
+					}
+				}
+			}
+		}
+	}
+}
