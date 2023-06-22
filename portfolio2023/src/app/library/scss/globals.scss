@@ -1,0 +1,27 @@
+$primary: #B154EA;
+$grey: #ABB2BF;
+$background: #282C33;
+$white: #FFFFFF;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: $background;
+}
+
+.container {
+  max-width: 1200px;
+}
+
