@@ -1,0 +1,41 @@
+@import '../../library/scss/globals.scss';
+
+
+.quotes {
+  margin: 100px 0;
+
+  div {
+    position: relative;
+
+    .citation {
+      padding: 15px 20px;
+      border: 1px solid $grey;
+      color: $grey;
+      margin: 0;
+    }
+
+    img {
+      background: $background;
+      padding: 5px;
+    }
+
+    .quote1 {
+      position: absolute;
+      top: -20px;
+      left: 15px;
+    }
+
+    .quote2 {
+      position: absolute;
+      bottom: -15px;
+      right: 15px;
+    }
+  }
+
+  .whoSayIt {
+    color: $grey;
+    border: 1px solid $grey;
+    padding: 15px;
+    border-top: none;
+  }
+}

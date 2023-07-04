@@ -1,0 +1,10 @@
+@import '../../library/scss/globals.scss';
+
+
+.btnPrimary {
+  color: $white;
+  padding: 5px 20px;
+  border: 2px solid $primary;
+  font-size: 18px;
+  max-width: max-content;
+}

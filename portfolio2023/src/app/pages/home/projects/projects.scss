@@ -1,0 +1,29 @@
+@import '../../../library/scss/globals.scss';
+
+
+.ctn-projects {
+  margin: 100px auto;
+  .container {
+    .row {
+
+    }
+  }
+}
+
+
+@media (max-width:900px) {
+  .ctn-projects {
+    margin: 50px auto;
+    .container {
+      .row {
+        flex-direction: column;
+        .col {
+          margin-bottom: 20px;
+          .cardProject {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

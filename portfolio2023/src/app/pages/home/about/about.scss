@@ -1,0 +1,17 @@
+@import '../../../library/scss/globals.scss';
+
+
+.ctn-skills {
+  margin: 100px auto;
+
+  .container {
+    .row {
+      .col {
+        p {
+          color: $grey;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}

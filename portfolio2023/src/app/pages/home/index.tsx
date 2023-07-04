@@ -1,6 +1,20 @@
 import React from "react";
-import "./home.scss";
+import Intro from "./intro";
+import Quotes from "./quotes";
+import Projects from "./projects";
+import Skills from "./skills";
+import About from "./about";
+import Contact from "./contact";
 
 export default function Home() {
-  return <h1></h1>;
+  return (
+    <>
+      <Intro />
+      <Quotes />
+      <Projects />
+      <Skills />
+      <About />
+      <Contact />
+    </>
+  );
 }

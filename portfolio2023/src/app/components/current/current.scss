@@ -1,0 +1,23 @@
+@import '../../library/scss/globals.scss';
+
+
+.currently {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: $grey;
+  border: 1px solid $grey;
+  width: 350px;
+  margin-left: 35px;
+
+  .color {
+    width: 12px;
+    height: 12px;
+    background: $primary;
+  }
+
+  span {
+    color: $white;
+  }
+}

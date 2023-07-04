@@ -1,0 +1,57 @@
+@import '../../../library/scss/globals.scss';
+
+.ctn-intro {
+  margin: 100px auto;
+  .container {
+    .row {
+      .col.um {
+        h1 {
+          color: $white;
+
+          span {
+            color: $primary
+          }
+        }
+
+        p {
+          color: $grey;
+          font-size: 24px;
+          max-width: 100%;
+        }
+      }
+
+      .col.dois {
+        img {
+          max-width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 900px) {
+  .ctn-intro {
+    margin: 50px auto;
+    .container {
+      .row {
+        flex-direction: column;
+
+        .col.um {
+          margin-left: 0 !important;
+          margin-bottom: 25px;
+        }
+
+        .col.dois {
+          .currently {
+            margin-left: 0;
+            font-size: 14px;
+            max-width: 350px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
