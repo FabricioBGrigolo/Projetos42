@@ -1,0 +1,24 @@
+@import '../../library/scss/globals.scss';
+
+
+.titleInternal {
+  h1 {
+    color: $white;
+    margin-bottom: 15px;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  p {
+    color: $white;
+  }
+}
+
+
+@media (min-width:900px) {
+  .titleInternal {
+    margin-left: 50px;
+  }
+}

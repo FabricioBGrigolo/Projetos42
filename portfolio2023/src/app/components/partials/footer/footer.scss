@@ -1,0 +1,63 @@
+@import '../../../library/scss/globals.scss';
+
+footer {
+  border-top: 1px solid $grey;
+  padding: 25px 0;
+
+  .container {
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .col.um {
+        .communication {
+          display: flex ;
+          justify-content: flex-start;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 20px;
+          color: $grey;
+
+          h1 {
+            font-family: "UnifrakturMaguntia";
+          }
+        }
+
+        p {
+          color: $grey;
+        }
+      }
+
+      .col.dois {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+          color: $grey;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          display: flex;
+          gap: 20px;
+          li {
+            a {
+              color: $grey;
+            }
+          }
+        }
+
+
+      }
+    }
+
+    .copyleft {
+      text-align: center;
+      margin-top: 50px;
+      color: $grey;
+    }
+  }
+}
