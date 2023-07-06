@@ -2,15 +2,32 @@
 
 .ctn-apps {
   .container {
-    .row.um {
+    .row.um, .row.dois {
       margin-bottom: 100px;
       .col {
-
+        .cardProject {
+          margin-bottom: 25px;
+        }
       }
     }
+  }
+}
 
-    .row.dois {
-      margin-bottom: 100px;
+
+@media (max-width:900px) {
+  .ctn-apps {
+    .container {
+      .row.um, .row.dois {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .col {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
     }
   }
 }
