@@ -1,12 +1,16 @@
 @import '../../../library/scss/globals.scss';
 
-.ctn-intro {
-  margin: 100px auto;
+.ctn-apps {
   .container {
-    .row {
+    .row.um {
+      margin-bottom: 100px;
       .col {
 
       }
+    }
+
+    .row.dois {
+      margin-bottom: 100px;
     }
   }
 }

@@ -16,18 +16,18 @@ export default function Skills() {
               Hello, I&apos;am Fabrício!
               <br />
               <br />
-              I&apos;m a self-taught front-end developer based in Porto Alegre,
-              Brazil. Developing responsive websites from scratch. Working as an
-              intern in web development at a marketing agency and doing
-              freelance work for a software company as a junior developer.
+              I&apos;m a self-taught front-end developer based in Brazil.
+              Developing responsive websites from scratch. Working as an intern
+              in web development at a marketing agency and doing freelance work
+              for a software company as a junior developer.
               <br />
               <br />
               Very interested in technology, mainly cyber security, which is my
               next goal after reaching my seniority in software development.
               <br />
               <br />
-              Daily been studying English, software development and
-              cybersecurity every day.
+              Daily been studying english, software development and
+              cybersecurity.
             </p>
             <Button content="Read more ->" />
           </Col>
