@@ -1,0 +1,30 @@
+@import '../../../library/scss/globals.scss';
+
+.ctn-intro {
+  margin: 100px auto;
+  .container {
+    .row {
+      .col {
+        p {
+          color: $grey;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .ctn-intro {
+    .container {
+      .row {
+        .col {
+          .introText {
+            margin: 50px 0 0 50px
+          }
+        }
+      }
+    }
+  }
+}

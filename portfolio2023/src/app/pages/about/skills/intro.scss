@@ -1,0 +1,43 @@
+@import '../../../library/scss/globals.scss';
+
+.skillsAbout {
+  margin: 100px auto;
+  .container {
+    .row {
+      .col {
+      }
+    }
+  }
+}
+
+@media (min-width:900px) {
+  .skillsAbout {
+    .container {
+      .row.um {
+        margin-left: 50px;
+
+        .row.dois {
+          gap: 25px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:900px) {
+  .skillsAbout {
+    .container {
+      .row.um {
+        .row.dois {
+          justify-content: center;
+          align-items: center;
+          .cardSkills {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+

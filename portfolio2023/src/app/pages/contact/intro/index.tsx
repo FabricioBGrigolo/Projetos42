@@ -1,21 +1,23 @@
 import React from "react";
-import "./contact.scss";
+import "./intro.scss";
 import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import Title from "@/app/components/title";
+import TitleInternal from "@/app/components/titleInternal";
 import SkillsCard from "@/app/components/skillsCard";
 
-export default function Skills() {
+export default function Home() {
   return (
-    <section className="ctn-skills">
+    <section className="ctn-intro">
       <Container>
         <Row>
-          <Title className title="contact" subtitle="" />
+          <TitleInternal title="contacts" subtitle="Who am i?" />
           <Col>
             <p>
-              I&apos;m interested in freelance opportunities. However, if you
-              have other request or question, don&apos;t hesitate to contact me
+              I’m interested in freelance opportunities. However, if you have
+              other request or question, don’t hesitate to contact me
             </p>
+          </Col>
+          <Col>
             <SkillsCard
               title="Message me here"
               techs={[
@@ -24,6 +26,8 @@ export default function Skills() {
                 <br key={2} />,
                 <i key={3} className="fa-solid fa-envelope"></i>,
                 " fbg.grigolo@gmail.com",
+                <br key={4} />,
+                <i key={5} className="fa-brands fa-linkedin"></i>,
               ]}
             />
           </Col>

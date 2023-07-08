@@ -1,12 +1,12 @@
 import React from "react";
 import Intro from "./intro";
-import Projects from "./projects";
+import ProjectsComponent from "./projects";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Intro />
-      <Projects />
+      <ProjectsComponent />
     </>
   );
 }

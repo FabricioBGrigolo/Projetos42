@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <section className="ctn-apps">
       <Container>
-        <Title title="complete-apps" />
         <Row className="um">
+          <Title title="complete-apps" />
           <Col>
             <ProjectCard
               src={portfolio}
