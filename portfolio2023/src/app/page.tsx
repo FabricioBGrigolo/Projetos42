@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Home from "./pages/home";
+import Home from "./pages/index";
 import Projects from "./pages/projects";
 import About from "./pages/about";
 import Contact from "./pages/contact";

@@ -28,6 +28,7 @@ export default function Home() {
                 " fbg.grigolo@gmail.com",
                 <br key={4} />,
                 <i key={5} className="fa-brands fa-linkedin"></i>,
+                "Fabrício Grigolo",
               ]}
             />
           </Col>

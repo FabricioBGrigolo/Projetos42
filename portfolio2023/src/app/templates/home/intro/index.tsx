@@ -12,7 +12,7 @@ export default function Home() {
     <section className="ctn-intro">
       <Container>
         <Row>
-          <Col className="um d-flex flex-column justify-content-center align-items-start ms-5">
+          <Col className="um d-flex flex-column justify-content-around align-items-start ms-5">
             <h1>
               I&apos;m a <span>Front-End Developer</span> and studying to be{" "}
               <span>Full-stack</span>

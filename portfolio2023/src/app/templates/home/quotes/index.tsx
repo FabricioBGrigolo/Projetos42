@@ -2,7 +2,7 @@ import React from "react";
 import "./quotes.scss";
 import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import CtnQuotes from "../../../components/quotes";
+import CtnQuotes from "@/app/components/quotes";
 
 export default function Home() {
   return (
