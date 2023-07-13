@@ -1,5 +1,5 @@
 import React from "react";
-import "./intro.scss";
+import "./projects.scss";
 import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
@@ -21,10 +21,11 @@ export default function ProjectsProjects() {
           <Col>
             <ProjectCard
               src={portfolio}
-              techs="React Next.js ReactRouterDOM React-Bootstrap SCSS"
+              techs="React Next.js React-Bootstrap SCSS"
               projectName="Portfolio"
               projectDescription="Website to showcase my other created projects"
               button="Github <~>"
+              href="https://github.com/fbgrigolo/Projetos42/tree/portfolio/portfolio2023"
             />
             <ProjectCard
               src={animaisFantasticos}

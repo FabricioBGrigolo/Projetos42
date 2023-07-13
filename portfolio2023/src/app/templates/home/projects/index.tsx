@@ -12,15 +12,20 @@ export default function ProjectsHome() {
   return (
     <section className="ctn-projects">
       <Container>
-        <Title className title="projects" subtitle={"View All ⟶"} />
+        <Title
+          className
+          title="projects"
+          subtitle={<a href="/projects">View All ⟶</a>}
+        />
         <Row className="justify-content-center align-items-center">
           <Col>
             <ProjectCard
               src={portfolio}
-              techs="React Next.js ReactRouterDOM React-Bootstrap SCSS"
+              techs="React Next.js React-Bootstrap SCSS"
               projectName="Portfolio"
               projectDescription="Site para mostrar meus outros projetos criados"
               button="Github <~>"
+              href="https://github.com/fbgrigolo/Projetos42/tree/portfolio/portfolio2023"
             />
           </Col>
           <Col>
@@ -29,7 +34,7 @@ export default function ProjectsHome() {
               techs="Wordpress PHP SCSS HTML"
               projectName="Mahal Surf Spirit"
               projectDescription="Site de notícias sobre Surf e Skate"
-              button="Live <~>"
+              button="In progress"
             />
           </Col>
           <Col>
