@@ -26,24 +26,26 @@ export default function Header() {
                 <Nav.Link href="/">
                   <span>~/</span>home
                 </Nav.Link>
-                <Nav.Link href="/#/projects">
+                <Nav.Link href="/projects">
                   <span>/</span>projects
                 </Nav.Link>
-                <Nav.Link href="/#/about">
+                <Nav.Link href="/about">
                   <span>/</span>about-me
                 </Nav.Link>
-                <Nav.Link href="/#/contacts">
+                <Nav.Link href="/contacts">
                   <span>/</span>contacts
                 </Nav.Link>
-                <Nav.Link className="mobile-link" href="#action2">
-                  <a href="https://github.com/fbgrigolo">
-                    <i className="fa-brands fa-github fa-xl"></i>
-                  </a>
+                <Nav.Link
+                  className="mobile-link"
+                  href="https://github.com/fbgrigolo"
+                >
+                  <i className="fa-brands fa-github fa-xl"></i>
                 </Nav.Link>
-                <Nav.Link className="mobile-link" href="#action2">
-                  <a href="https://www.linkedin.com/in/fbcgrigolo/">
-                    <i className="fa-brands fa-linkedin fa-xl"></i>
-                  </a>
+                <Nav.Link
+                  className="mobile-link"
+                  href="https://www.linkedin.com/in/fbcgrigolo/"
+                >
+                  <i className="fa-brands fa-linkedin fa-xl"></i>
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>

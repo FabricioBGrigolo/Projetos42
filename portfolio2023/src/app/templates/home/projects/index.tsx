@@ -4,7 +4,6 @@ import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import ProjectCard from "@/app/components/projectCard";
-import { Link } from "react-router-dom";
 
 import portfolio from "@/app/library/images/portfolio.png";
 import dealsRiders from "@/app/library/images/DealsRiders.png";
@@ -14,11 +13,7 @@ export default function Home() {
   return (
     <section className="ctn-projects">
       <Container>
-        <Title
-          className
-          title="projects"
-          subtitle={<Link to={"/projects"}>View All ⟶</Link>}
-        />
+        <Title className title="projects" subtitle={"View All ⟶"} />
         <Row className="justify-content-center align-items-center">
           <Col>
             <ProjectCard
