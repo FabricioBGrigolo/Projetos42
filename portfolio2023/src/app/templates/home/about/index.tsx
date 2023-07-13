@@ -1,11 +1,10 @@
 import React from "react";
 import "./about.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import Button from "@/app/components/button";
 
-export default function Skills() {
+export default function AboutHome() {
   return (
     <section className="ctn-skills">
       <Container>

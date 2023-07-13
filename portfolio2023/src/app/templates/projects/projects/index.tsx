@@ -12,7 +12,7 @@ import iliteERP from "@/app/library/images/IliteERP.png";
 import iliteSite from "@/app/library/images/IliteSite.png";
 import animaisFantasticos from "@/app/library/images/AnimaisFantasticos.png";
 
-export default function Home() {
+export default function ProjectsProjects() {
   return (
     <section className="ctn-apps">
       <Container>

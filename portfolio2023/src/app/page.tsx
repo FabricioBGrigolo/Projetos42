@@ -14,7 +14,7 @@ export default function App() {
     <HashRouter basename="/">
       <Header />
       <Routes>
-        <Route path="/" index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contact />} />

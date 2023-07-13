@@ -1,10 +1,9 @@
 import React from "react";
 import "./quotes.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import CtnQuotes from "@/app/components/quotes";
 
-export default function Home() {
+export default function QuotesHome() {
   return (
     <section className="ctn-quotes">
       <Container>

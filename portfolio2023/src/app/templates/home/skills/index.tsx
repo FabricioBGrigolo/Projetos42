@@ -1,13 +1,12 @@
 import React from "react";
 import "./skills.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import logos from "@/app/library/images/logos.svg";
 import Image from "next/image";
 import SkillsCard from "@/app/components/skillsCard";
 
-export default function Skills() {
+export default function SkillsHome() {
   return (
     <section className="ctn-skills">
       <Container>

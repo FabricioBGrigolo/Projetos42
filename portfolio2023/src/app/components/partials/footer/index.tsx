@@ -3,7 +3,7 @@ import "./footer.scss";
 import { Container, Col, Row } from "react-bootstrap";
 import "../../../library/fonts/font.scss";
 
-export default function footer() {
+export default function Footer() {
   return (
     <footer>
       <Container>

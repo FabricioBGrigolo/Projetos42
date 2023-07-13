@@ -4,7 +4,7 @@ import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import TitleInternal from "@/app/components/titleInternal";
 
-export default function Home() {
+export default function IntroProjects() {
   return (
     <section className="ctn-intro">
       <Container>
