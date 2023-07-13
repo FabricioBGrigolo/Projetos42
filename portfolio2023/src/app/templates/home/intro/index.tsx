@@ -1,13 +1,12 @@
 import React from "react";
 import "./intro.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import introImage from "../../../library/images/Intro-img.png";
 import Button from "../../../components/button";
 import Currently from "../../../components/current";
 
-export default function Home() {
+export default function IntroHome() {
   return (
     <section className="ctn-intro">
       <Container>

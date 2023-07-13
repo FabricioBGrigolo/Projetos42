@@ -1,6 +1,5 @@
 import React from "react";
 import "./projects.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import ProjectCard from "@/app/components/projectCard";
@@ -9,7 +8,7 @@ import portfolio from "@/app/library/images/portfolio.png";
 import dealsRiders from "@/app/library/images/DealsRiders.png";
 import mahalSurfSpirit from "@/app/library/images/mahaSurfSpirit.png";
 
-export default function Home() {
+export default function ProjectsHome() {
   return (
     <section className="ctn-projects">
       <Container>

@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import React from "react";
-import "./library/scss/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 

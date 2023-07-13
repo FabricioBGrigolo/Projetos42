@@ -1,11 +1,10 @@
 import React from "react";
 import "./contact.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import SkillsCard from "@/app/components/skillsCard";
 
-export default function Skills() {
+export default function ContactHome() {
   return (
     <section className="ctn-skills">
       <Container>
