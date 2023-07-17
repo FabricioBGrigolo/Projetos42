@@ -22,19 +22,23 @@ export default function SkillsHome() {
           </Col>
           <Col className="dois d-flex justify-content-center align-items-start gap-3">
             <Col>
-              <SkillsCard title="Languages" techs="Javascript Typescript" />
+              <SkillsCard
+                title="Languages"
+                techs="Javascript Typescript English"
+              />
             </Col>
             <Col className="d-flex justify-content-start align-items-start flex-column gap-3">
-              <SkillsCard title="Databases" techs="none for now" />
+              {/* <SkillsCard title="Databases" techs="none for now" /> */}
               <SkillsCard title="Tools" techs="VSCode CLI Linux Git Github" />
-            </Col>
-            <Col className="d-flex justify-content-start align-items-start flex-column gap-3">
-              <SkillsCard title="Other" techs="HTML CSS SCSS Wordpress" />
-              <SkillsCard title="Frameworks" techs="React Next.js" />
               <SkillsCard
                 title="interest in"
                 techs="Cybersecurity Computer-Science"
               />
+            </Col>
+            <Col className="d-flex justify-content-start align-items-start flex-column gap-3">
+              <SkillsCard title="Other" techs="HTML CSS SCSS Wordpress" />
+              <SkillsCard title="Frameworks" techs="Next.js" />
+              <SkillsCard title="Librarys" techs="React" />
             </Col>
           </Col>
         </Row>

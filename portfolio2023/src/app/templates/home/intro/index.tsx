@@ -2,9 +2,9 @@ import React from "react";
 import "./intro.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import introImage from "../../../library/images/Intro-img.png";
-import Button from "../../../components/button";
-import Currently from "../../../components/current";
+import introImage from "@/app/library/images/Intro-img.png";
+import Button from "@/app/components/button";
+import Currently from "@/app/components/current";
 
 export default function IntroHome() {
   return (
