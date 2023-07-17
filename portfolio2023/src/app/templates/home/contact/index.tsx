@@ -6,7 +6,7 @@ import SkillsCard from "@/app/components/skillsCard";
 
 export default function ContactHome() {
   return (
-    <section className="ctn-skills">
+    <section className="ctn-skills" id="about">
       <Container>
         <Row>
           <Title className title="contact" subtitle="" />
@@ -18,8 +18,8 @@ export default function ContactHome() {
             <SkillsCard
               title="Message me here"
               techs={[
-                <i key={1} className="fa-brands fa-discord"></i>,
-                " DiscordAccount",
+                <i key={1} className="fa-brands fa-linkedin"></i>,
+                " Fabricio Grigolo",
                 <br key={2} />,
                 <i key={3} className="fa-solid fa-envelope"></i>,
                 " fbg.grigolo@gmail.com",

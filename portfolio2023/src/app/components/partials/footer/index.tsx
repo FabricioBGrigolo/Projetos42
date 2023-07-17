@@ -21,20 +21,28 @@ export default function Footer() {
             <h3>Media</h3>
             <ul>
               <li>
-                <a href="">
+                <a
+                  href="https://github.com/fbgrigolo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-brands fa-github fa-2xl"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/fbcgrigolo/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-brands fa-linkedin fa-2xl"></i>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="">
                   <i className="fa-brands fa-discord fa-2xl"></i>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

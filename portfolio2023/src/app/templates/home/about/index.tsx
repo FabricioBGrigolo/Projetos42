@@ -6,7 +6,7 @@ import Button from "@/app/components/button";
 
 export default function AboutHome() {
   return (
-    <section className="ctn-skills">
+    <section className="ctn-skills" id="about">
       <Container>
         <Row>
           <Col>
@@ -28,7 +28,7 @@ export default function AboutHome() {
               Daily been studying english, software development and
               cybersecurity.
             </p>
-            <Button content="Read more ->" />
+            {/* <Button content="Read more ->" href="/about" /> */}
           </Col>
         </Row>
       </Container>

@@ -19,7 +19,7 @@ export default function IntroHome() {
             <p>
               Crafting responsive websites where technologies meet creativity
             </p>
-            <Button content="Contact me!!" />
+            <Button content="Contact me!!" href="#about" target="self" />
           </Col>
           <Col className="dois d-flex flex-column justify-content-center align-items-center">
             <Image

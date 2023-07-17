@@ -6,7 +6,7 @@ import ProjectCard from "@/app/components/projectCard";
 
 import portfolio from "@/app/library/images/portfolio.png";
 import dealsRiders from "@/app/library/images/DealsRiders.png";
-import mahalSurfSpirit from "@/app/library/images/mahaSurfSpirit.png";
+import animaisFantasticos from "@/app/library/images/AnimaisFantasticos.png";
 
 export default function ProjectsHome() {
   return (
@@ -30,11 +30,12 @@ export default function ProjectsHome() {
           </Col>
           <Col>
             <ProjectCard
-              src={mahalSurfSpirit}
-              techs="Wordpress PHP SCSS HTML"
-              projectName="Mahal Surf Spirit"
-              projectDescription="Site de notícias sobre Surf e Skate"
-              button="In progress"
+              src={animaisFantasticos}
+              techs="HTML CSS Javascript"
+              projectName="Portfolio"
+              projectDescription="Website created during the Javascript course for beginners"
+              button="Live <~>"
+              href="https://fbgrigolo.github.io/Projetos42/FantasticAnimals/"
             />
           </Col>
           <Col>
@@ -44,6 +45,7 @@ export default function ProjectsHome() {
               projectName="Deals Riders"
               projectDescription="Um projeto do curso HTML E CSS para iniciantes"
               button="Live <~>"
+              href="https://fbgrigolo.github.io/Projetos42/DealsRiders/"
             />
           </Col>
         </Row>

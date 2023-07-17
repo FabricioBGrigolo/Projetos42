@@ -33,6 +33,7 @@ export default function ProjectsProjects() {
               projectName="Portfolio"
               projectDescription="Website created during the Javascript course for beginners"
               button="Live <~>"
+              href="https://fbgrigolo.github.io/Projetos42/FantasticAnimals/"
             />
           </Col>
           <Col>
@@ -51,6 +52,7 @@ export default function ProjectsProjects() {
               projectName="Deals Riders"
               projectDescription="An HTML And CSS Course Project For Beginners"
               button="Live <~>"
+              href="https://fbgrigolo.github.io/Projetos42/DealsRiders/"
             />
           </Col>
         </Row>
@@ -72,6 +74,7 @@ export default function ProjectsProjects() {
               projectName="Ilite startup website"
               projectDescription="Institutional website of Ilite ERP"
               button="Live <~>"
+              href="https://ilite.com.br/"
             />
           </Col>
           <Col></Col>

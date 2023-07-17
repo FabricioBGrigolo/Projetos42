@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <Navbar expand={"lg"} className="bg-body-tertiary mb-3">
         <Container>
-          <Navbar.Brand href="#">Fabrício</Navbar.Brand>
+          <Navbar.Brand href="/">Fabrício</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
           <Navbar.Offcanvas
             aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
@@ -32,9 +32,9 @@ export default function Header() {
                 <Nav.Link href="/about">
                   <span>/</span>about-me
                 </Nav.Link>
-                <Nav.Link href="/contacts">
+                {/* <Nav.Link href="/contacts">
                   <span>/</span>contacts
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link
                   className="mobile-link"
                   href="https://github.com/fbgrigolo"
